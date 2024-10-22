@@ -16,10 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from PortdexAI import views
-from PortdexAI import dashboard
-from PortdexAI import generator
-from PortdexAI import pages
+from ChatenAI import views
+from ChatenAI import dashboard
+from ChatenAI import generator
+from ChatenAI import pages
 
 urlpatterns = [
     path('admin/', admin.site.urls),
