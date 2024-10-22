@@ -1,5 +1,5 @@
 """
-URL configuration for ChatenAI project.
+URL configuration for PortdexAI project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.0/topics/http/urls/
@@ -16,10 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from ChatenAI import views
-from ChatenAI import dashboard
-from ChatenAI import generator
-from ChatenAI import pages
+from PortdexAI import views
+from PortdexAI import dashboard
+from PortdexAI import generator
+from PortdexAI import pages
 
 urlpatterns = [
     path('admin/', admin.site.urls),

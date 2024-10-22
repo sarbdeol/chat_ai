@@ -1,7 +1,7 @@
 {
-  "name": "chatenai",
+  "name": "PortdexAI",
   "version": "1.0.0",
-  "description": "chatenai - AI SaaS Website + Dashboard Django UI Kit",
+  "description": "PortdexAI - AI SaaS Website + Dashboard Django UI Kit",
   "author": "PixcelsThemes",
   "scripts": {
     "dev": "sass --watch static/scss/style.scss:static/css/style.css",

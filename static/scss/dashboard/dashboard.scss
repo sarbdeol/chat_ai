@@ -688,7 +688,7 @@
         @media #{$smlg-device} {
             width: 100%;
         }
-        .chatenai-separator{
+        .PortdexAI-separator{
             display: none;
         }
     }
@@ -698,13 +698,13 @@
         @media #{$smlg-device} {
             width: 100%;
         }
-        .chatenai-separator{
+        .PortdexAI-separator{
             display: none;
         }
         &.area-left-expanded{
             width: 100%;
             padding-bottom: 50px;
-            .chatenai-separator{
+            .PortdexAI-separator{
                 display: none;
             }
         }
@@ -733,7 +733,7 @@
     }
     &.collapse-width{
         width: calc(100% - var(--sidebar-width));
-        .chatenai-separator.has-position-bottom{
+        .PortdexAI-separator.has-position-bottom{
             bottom: -25px;
         }
         @media #{$smlg-device} {
@@ -855,7 +855,7 @@
             margin-bottom: 10px;
         }
     }
-    .chatenai-separator{
+    .PortdexAI-separator{
         z-index: -2;
         @media #{$smlg-device} {
             display: none;
@@ -973,7 +973,7 @@
 
 
 // Dashboard Pricing
-.chatenai-tab{
+.PortdexAI-tab{
     display: flex;
     justify-content: center;
     .tab-btn-grp{
@@ -1059,7 +1059,7 @@
 
 
 // Small Carosel Bannner
-.chatenai-small-slider{
+.PortdexAI-small-slider{
     .inner{
         background: var(--color-secondary);
         display: flex;

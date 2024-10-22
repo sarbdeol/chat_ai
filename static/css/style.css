@@ -8639,7 +8639,7 @@ textarea:-ms-input-placeholder {
   margin-left: 30px;
 }
 
-.chatenai-separator.has-position-bottom {
+.PortdexAI-separator.has-position-bottom {
   position: absolute;
   width: 100%;
   height: auto;
@@ -8648,11 +8648,11 @@ textarea:-ms-input-placeholder {
   right: 0;
 }
 @media only screen and (max-width: 767px) {
-  .chatenai-separator.has-position-bottom {
+  .PortdexAI-separator.has-position-bottom {
     bottom: -5px;
   }
 }
-.chatenai-separator.has-position-top {
+.PortdexAI-separator.has-position-top {
   position: absolute;
   width: 100%;
   height: auto;
@@ -14846,33 +14846,33 @@ span.rainbow-demo-btn {
   background-color: var(--color-lessdark);
   padding: 30px;
 }
-.rainbow-pricing.style-chatenai {
+.rainbow-pricing.style-PortdexAI {
   height: 100%;
 }
-.rainbow-pricing.style-chatenai .pricing-table-inner {
+.rainbow-pricing.style-PortdexAI .pricing-table-inner {
   border: 0;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.rainbow-pricing.style-chatenai .pricing-header {
+.rainbow-pricing.style-PortdexAI .pricing-header {
   text-align: left;
 }
-.rainbow-pricing.style-chatenai .pricing-header .price-wrapper {
+.rainbow-pricing.style-PortdexAI .pricing-header .price-wrapper {
   justify-content: flex-start;
 }
-.rainbow-pricing.style-chatenai .pricing-header .price-wrapper span.sm-text {
+.rainbow-pricing.style-PortdexAI .pricing-header .price-wrapper span.sm-text {
   font-size: 48px;
   line-height: 77px;
 }
-.rainbow-pricing.style-chatenai .pricing-body {
+.rainbow-pricing.style-PortdexAI .pricing-body {
   margin-bottom: 0;
 }
-.rainbow-pricing.style-chatenai .pricing-body ul {
+.rainbow-pricing.style-PortdexAI .pricing-body ul {
   text-align: left;
 }
-.rainbow-pricing.style-chatenai .pricing-footer .btn-default {
+.rainbow-pricing.style-PortdexAI .pricing-footer .btn-default {
   display: block;
 }
 
@@ -19372,21 +19372,21 @@ body.active-light-mode .rbt-single-widget .title {
 body.active-light-mode .changelog_content p.title {
   color: #65676b;
 }
-body.active-light-mode .chatenai-tab .tab-btn-grp {
+body.active-light-mode .PortdexAI-tab .tab-btn-grp {
   border: 2px solid var(--color-lightest);
 }
-body.active-light-mode .chatenai-tab .tab-btn-grp button {
+body.active-light-mode .PortdexAI-tab .tab-btn-grp button {
   color: #8d8ea6;
 }
-body.active-light-mode .chatenai-tab .tab-btn-grp button.active {
+body.active-light-mode .PortdexAI-tab .tab-btn-grp button.active {
   background: var(--color-primary);
   color: var(--color-white);
 }
-body.active-light-mode .chatenai-tab .tab-btn-grp button.active .rainbow-badge-card {
+body.active-light-mode .PortdexAI-tab .tab-btn-grp button.active .rainbow-badge-card {
   color: #fff;
   border: 2px solid var(--color-border);
 }
-body.active-light-mode .chatenai-tab .tab-btn-grp button .rainbow-badge-card {
+body.active-light-mode .PortdexAI-tab .tab-btn-grp button .rainbow-badge-card {
   color: #8d8ea6;
   border: 2px solid var(--color-lightest);
 }
@@ -20945,11 +20945,11 @@ body.active-light-mode .rbt-utilize-area .rbt-default-sidebar-list li.has-submen
   color: var(--color-white);
 }
 
-.chatenai-tab {
+.PortdexAI-tab {
   display: flex;
   justify-content: center;
 }
-.chatenai-tab .tab-btn-grp {
+.PortdexAI-tab .tab-btn-grp {
   padding: 10px;
   border: 2px solid var(--color-border);
   border-radius: 100px;
@@ -20957,11 +20957,11 @@ body.active-light-mode .rbt-utilize-area .rbt-default-sidebar-list li.has-submen
   justify-content: space-between !important;
 }
 @media only screen and (max-width: 767px) {
-  .chatenai-tab .tab-btn-grp {
+  .PortdexAI-tab .tab-btn-grp {
     flex-direction: column;
   }
 }
-.chatenai-tab .tab-btn-grp button {
+.PortdexAI-tab .tab-btn-grp button {
   padding: 10px 35px;
   font-size: var(--font-size-b1);
   line-height: var(--line-height-b1);
@@ -20976,18 +20976,18 @@ body.active-light-mode .rbt-utilize-area .rbt-default-sidebar-list li.has-submen
   outline: none;
 }
 @media only screen and (max-width: 479px) {
-  .chatenai-tab .tab-btn-grp button {
+  .PortdexAI-tab .tab-btn-grp button {
     padding: 10px 15px;
   }
 }
-.chatenai-tab .tab-btn-grp button.active {
+.PortdexAI-tab .tab-btn-grp button.active {
   background: var(--color-primary);
   color: var(--color-white);
 }
-.chatenai-tab .tab-btn-grp button:focus-visible, .chatenai-tab .tab-btn-grp button:focus-within, .chatenai-tab .tab-btn-grp button:focus {
+.PortdexAI-tab .tab-btn-grp button:focus-visible, .PortdexAI-tab .tab-btn-grp button:focus-within, .PortdexAI-tab .tab-btn-grp button:focus {
   color: var(--color-white);
 }
-.chatenai-tab .tab-btn-grp button .rainbow-badge-card {
+.PortdexAI-tab .tab-btn-grp button .rainbow-badge-card {
   margin-left: 10px;
   font-size: var(--font-size-b4);
   line-height: var(--line-height-b4);
@@ -21058,7 +21058,7 @@ body.active-light-mode .rbt-utilize-area .rbt-default-sidebar-list li.has-submen
   width: 300px;
 }
 
-.chatenai-small-slider .inner {
+.PortdexAI-small-slider .inner {
   background: var(--color-secondary);
   display: flex;
   border-radius: var(--radius);
@@ -21067,45 +21067,45 @@ body.active-light-mode .rbt-utilize-area .rbt-default-sidebar-list li.has-submen
   align-items: flex-end;
 }
 @media only screen and (max-width: 767px) {
-  .chatenai-small-slider .inner {
+  .PortdexAI-small-slider .inner {
     flex-direction: column;
     align-items: flex-start;
   }
 }
-.chatenai-small-slider .inner.bg-one {
+.PortdexAI-small-slider .inner.bg-one {
   background: var(--color-secondary);
 }
-.chatenai-small-slider .inner.bg-two {
+.PortdexAI-small-slider .inner.bg-two {
   background: var(--color-primary);
 }
-.chatenai-small-slider .inner.bg-three {
+.PortdexAI-small-slider .inner.bg-three {
   background: var(--color-primary-gradient-start);
 }
-.chatenai-small-slider .inner.bg-four {
+.PortdexAI-small-slider .inner.bg-four {
   background: var(--color-primary-alt);
 }
-.chatenai-small-slider .inner .content {
+.PortdexAI-small-slider .inner .content {
   padding: 50px 30px;
   padding-right: 0;
 }
-.chatenai-small-slider .inner .content .title {
+.PortdexAI-small-slider .inner .content .title {
   margin-bottom: 10px;
   color: var(--color-white);
 }
-.chatenai-small-slider .inner .content p {
+.PortdexAI-small-slider .inner .content p {
   color: var(--color-white);
 }
-.chatenai-small-slider .img-section {
+.PortdexAI-small-slider .img-section {
   display: flex;
   max-width: 50%;
   height: 100%;
 }
-.chatenai-small-slider .img-section img {
+.PortdexAI-small-slider .img-section img {
   height: 100%;
   max-height: 165px;
 }
 @media only screen and (max-width: 767px) {
-  .chatenai-small-slider .img-section {
+  .PortdexAI-small-slider .img-section {
     max-width: 100%;
   }
 }
@@ -21818,18 +21818,18 @@ body.active-light-mode .rbt-utilize-area .rbt-default-sidebar-list li.has-submen
   padding: 0;
 }
 @media only screen and (max-width: 767px) {
-  .rbt-daynamic-page-content.center-width .rbt-dashboard-content .content-page .rainbow-pricing.style-chatenai .pricing-header .price-wrapper span.sm-text {
+  .rbt-daynamic-page-content.center-width .rbt-dashboard-content .content-page .rainbow-pricing.style-PortdexAI .pricing-header .price-wrapper span.sm-text {
     font-size: 42px;
     line-height: 56px;
   }
 }
 @media only screen and (max-width: 479px) {
-  .rbt-daynamic-page-content.center-width .rbt-dashboard-content .content-page .chatenai-tab .tab-btn-grp {
+  .rbt-daynamic-page-content.center-width .rbt-dashboard-content .content-page .PortdexAI-tab .tab-btn-grp {
     padding: 20px;
   }
 }
 @media only screen and (max-width: 479px) {
-  .rbt-daynamic-page-content.center-width .rbt-dashboard-content .content-page .chatenai-tab .tab-btn-grp button {
+  .rbt-daynamic-page-content.center-width .rbt-dashboard-content .content-page .PortdexAI-tab .tab-btn-grp button {
     width: 100%;
   }
 }

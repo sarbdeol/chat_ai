@@ -1,10 +1,10 @@
 (function (window, document, $, undefined) {
   "use strict";
 
-  var chatenaiJs = {
+  var PortdexAIJs = {
     i: function (e) {
-      chatenaiJs.d();
-      chatenaiJs.methods();
+      PortdexAIJs.d();
+      PortdexAIJs.methods();
     },
 
     d: function (e) {
@@ -15,29 +15,29 @@
     },
 
     methods: function (e) {
-      chatenaiJs.smothScroll();
-      chatenaiJs.counterUpActivation();
-      chatenaiJs.wowActivation();
-      chatenaiJs.headerTopActivation();
-      chatenaiJs.headerSticky();
-      chatenaiJs.salActive();
-      chatenaiJs.popupMobileMenu();
-      chatenaiJs.popupDislikeSection();
-      chatenaiJs.popupleftdashboard();
-      chatenaiJs.popuprightdashboard();
-      chatenaiJs.preloaderInit();
-      chatenaiJs.showMoreBtn();
-      chatenaiJs.masonryActivation();
-      chatenaiJs.magnigyPopup();
-      chatenaiJs.lightBoxJs();
-      chatenaiJs.slickSliderActivation();
-      chatenaiJs.radialProgress();
-      chatenaiJs.contactForm();
-      chatenaiJs.menuCurrentLink();
-      chatenaiJs.onePageNav();
-      chatenaiJs.darkLight();
-      chatenaiJs.featherIcons();
-      chatenaiJs.selectPicker();
+      PortdexAIJs.smothScroll();
+      PortdexAIJs.counterUpActivation();
+      PortdexAIJs.wowActivation();
+      PortdexAIJs.headerTopActivation();
+      PortdexAIJs.headerSticky();
+      PortdexAIJs.salActive();
+      PortdexAIJs.popupMobileMenu();
+      PortdexAIJs.popupDislikeSection();
+      PortdexAIJs.popupleftdashboard();
+      PortdexAIJs.popuprightdashboard();
+      PortdexAIJs.preloaderInit();
+      PortdexAIJs.showMoreBtn();
+      PortdexAIJs.masonryActivation();
+      PortdexAIJs.magnigyPopup();
+      PortdexAIJs.lightBoxJs();
+      PortdexAIJs.slickSliderActivation();
+      PortdexAIJs.radialProgress();
+      PortdexAIJs.contactForm();
+      PortdexAIJs.menuCurrentLink();
+      PortdexAIJs.onePageNav();
+      PortdexAIJs.darkLight();
+      PortdexAIJs.featherIcons();
+      PortdexAIJs.selectPicker();
     },
 
     selectPicker: function () {
@@ -283,7 +283,7 @@
     },
 
     preloaderInit: function () {
-      chatenaiJs._window.on("load", function () {
+      PortdexAIJs._window.on("load", function () {
         $(".preloader").fadeOut("slow", function () {
           $(this).remove();
         });
@@ -737,7 +737,7 @@
       }
     },
   };
-  chatenaiJs.i();
+  PortdexAIJs.i();
 })(window, document, jQuery);
 
 // Bg flashlight
@@ -808,7 +808,7 @@ $(function () {
 
 // Chat Box Reply
 function generateAutoReply() {
-  return `ChatenAI: I'm a dynamic chat bot!`;
+  return `PortdexAI: I'm a dynamic chat bot!`;
 }
 
 function sendMessage() {
@@ -834,7 +834,7 @@ function sendMessage() {
 
   if (welcomeMessageIndex < welcomeMessages.length) {
     const welcomeMessageElement = createMessageWithReactions(
-      "ChatenAI",
+      "PortdexAI",
       welcomeMessages[welcomeMessageIndex],
       "ai-speech",
       "assets/images/team/avater.png"
@@ -844,7 +844,7 @@ function sendMessage() {
   } else {
     const autoReply = generateAutoReply();
     const autoReplyElement = createMessageWithReactions(
-      "ChatenAI",
+      "PortdexAI",
       autoReply,
       "ai-speech",
       "assets/images/team/avater.png"
@@ -968,7 +968,7 @@ function saveAndRegenerateMessage(button) {
   // Regenerate a new message
   const regeneratedMessage = generateAutoReply();
   const regeneratedMessageElement = createMessageWithReactions(
-    "ChatenAI",
+    "PortdexAI",
     regeneratedMessage,
     "ai-speech",
     "assets/images/team/avater.png"
@@ -986,7 +986,7 @@ function cancelEdit(button) {
 function regenerateMessage() {
   const regeneratedMessage = generateAutoReply();
   const regeneratedMessageElement = createMessageWithReactions(
-    "ChatenAI",
+    "PortdexAI",
     regeneratedMessage,
     "ai-speech",
     "assets/images/team/avater.png"
